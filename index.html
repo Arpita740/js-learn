@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Learn</title>
+</head>
+<body onkeypress="names()">
+   
+    <h1 id="main">hi <span> its me arpita</span></h1>
+   <p>Events</p>
+    <button onclick="names() ">Click me(on click)</button><br><br>
+   <p ondblclick="names()">click (ondblclick)</p><br>
+   <p oncontextmenu="names()">click(oncontextmenu)</p><br>
+   <p onmouseenter="names()">click(onmouseenter)</p><br>
+   <p onmousedown="names()">click(onmousedown)</p><br>
+   <p onmouseout="names()">click(onmouseout)</p><br>
+   <p onmouseup="names()">click(onmouseup)</p><br>
+   <h1 id="hello">hello</h1>
+   <div id="divtag" class="abc" style="border: 1px solid black;">
+    <h1>hello world</h1>
+    <h6>hello the earth</h6>
+   </div>
+   <div id="nam" class="abcd">
+<h2>arpita</h2>
+   </div>
+   
+   <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni ullam aut voluptatem tempore quia quae iure. Sequi eveniet et odit harum, dolorum voluptate. Quas nisi quibusdam magnam facilis aperiam fugiat?</p>
+   <p class="para">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum vel praesentium eligendi id quae nihil rerum provident explicabo, odit quos.</p>
+    <div id="outer">
+        <h2>outer</h2>
+        <div id="inner">
+<h2>inner</h2>
+        </div>
+    </div>
+<form action="">
+    <label for="">name</label>
+    <input type="text" id="ffname" onfocus="focusFunction()"  oninput="inputfun(this)"><br><br>
+    <label for="">class</label>
+    <input type="text" id="bl" ><br><br>
+    <label for="">country</label>
+    <select id="">
+        <option value="">india</option>
+        <option value="">london</option>
+    </select>
+    <br>
+</form>
+   <div id="test" style="border: 1px solid red;"></div>
+  <script>
+    function inputfun(element) {
+        var x=element.value
+       document.getElementById("test").innerHTML=x
+    }
+  </script> 
+   
+   
+   <script src="index.js"></script>
+    <script src="arthimatic.js"></script>
+</body>
+</html>
